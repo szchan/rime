@@ -37,6 +37,14 @@ XMODIFIERS=@im=fcitx
 
 ### 3. 克隆项目并配置
 
+#### 注意
+本项目使用 Git LFS 存储大文件(语法大模型和prism数据)。克隆前请安装 [Git LFS](https://git-lfs.com)：
+
+```bash
+sudo pacman -S git-lfs --needed
+git lfs install
+```
+
 克隆本项目到本地：
 
 ```bash
@@ -46,7 +54,7 @@ git clone https://github.com/szchan/rime.git
 将项目文件替换到fcitx5的rime配置目录：
 
 ```bash
-mv ~/.local/share/fcitx5/rime ~/.local/share/fcitx5/rime.bak
+mv ~/.local/share/fcitx5/rime ~/.local/share/fcitx5/rime.bak # 备份原有配置
 cp -r rime ~/.local/share/fcitx5
 ```
 
@@ -66,10 +74,16 @@ fcitx5-configtool
 重启系统以使所有配置生效：
 
 ```bash
-reboot
+sudo reboot
 ```
 
 ## 开始使用
 
 重启后，enjoy your new input method! 🎉
 
+## 特别鸣谢
+
+- [Fcitx5](https://fcitx-im.org/wiki/Fcitx5)
+- [Rime](https://rime.im/)
+- [雾凇拼音](https://github.com/iDvel/rime-ice)
+- [万象语法大模型](https://github.com/amzxyz/RIME-LMDG)
