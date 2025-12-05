@@ -1,0 +1,2 @@
+wanxiang-lts-zh-hans.gram filter=lfs diff=lfs merge=lfs -text
+build/rime_ice.table.bin filter=lfs diff=lfs merge=lfs -text

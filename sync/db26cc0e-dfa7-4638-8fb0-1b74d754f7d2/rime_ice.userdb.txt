@@ -1,0 +1,15 @@
+# Rime user dictionary
+#@/db_name	rime_ice
+#@/db_type	userdb
+#@/rime_version	1.14.0
+#@/tick	7
+#@/user_id	db26cc0e-dfa7-4638-8fb0-1b74d754f7d2
+an shi 	按时	c=1 d=1 t=1
+da an 	答案	c=1 d=1 t=2
+de 	的	c=0 d=0.1 t=5
+quan xin 	全新	c=1 d=1 t=7
+shang shu 	上述	c=0 d=0.1 t=5
+shang shu de 	上述的	c=1 d=1 t=6
+shang shu dian 	上书店	c=1 d=1 t=5
+shi de 	是的	c=1 d=1 t=3
+tui jian 	推荐	c=1 d=1 t=4
